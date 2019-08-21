@@ -1,0 +1,100 @@
+<!-- This tells our browser that this is and HTML5 file -->
+<!DOCTYPE html>
+
+<!-- all of our HTML goes inside of here -->
+<html>
+
+<!-- this is our head element, which contains metadata -->
+
+<head>
+    <!-- This is the title of my websire (this is what shows up on the tab when we have the site open) -->
+    <title>My First Website</title>
+    <!-- This is the piece of metadata lists the author of the page -->
+    <meta name="author" content="Emily Baker-King">
+    <!-- This is piece of metadata contains a description of out website (used by search engines) -->
+    <meta name="description" content="this is my first website!">
+    <!-- This is how we specify what characters our site can display. There are certain characters that aren't in certain charsets -->
+    <meta charset="UTF-8">
+    <!-- This sets the viewport for our site (which is the area that the browser is displaying on so that the width is equal to the device width) -->
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<!-- The content element for our site go in the body -->
+
+<body style=background-color:lemonchiffon>
+
+    <!-- CMD + / will comment selected text out -->
+
+    <!-- This is an h1 element. Header's go from h1 to h6, getting smaller as you go. Headers are bold compared to regular text -->
+    <h1 style="color:yellowgreen">
+        <center>My First Website</center>
+    </h1>
+
+    <!-- This is a paragraph element. They are used to display text -->
+    <p>
+        This is my first website. <br>
+        Below, you'll find lists of three of my hobbies and my top 5 favorite places to nap.
+    </p>
+
+    <h2>Hobbies</h2>
+
+    <!-- this is an unordered list. This will use bullet systems when using li in it -->
+    <ul>
+        <!-- li is list item elements -->
+        <li>Roller Derby</li>
+        <li>Netflix or Hulu</li>
+        <li>Camping or hiking with my Grandma</li>
+    </ul>
+
+    <h2>Top 5 favorite places to nap</h2>
+
+    <!-- this is an ordered list. This would use numbers or letters or whatever when using li in it -->
+    <!-- ordered lists can show different type of numbers or letters, all you have to do is put type in with the ol and then choose from one of the options on there -->
+    <ol>
+        <!-- br is break, it makes the next text start on a new line -->
+        1. In my bed <br>
+        2. On a couch <br>
+        3. Outside on the grass, and also in the shade <br>
+        4. In the car waiting to go into work <br>
+        5. In my chair in class whenever we get a break <br>
+
+    </ol>
+
+    <button type="button" onclick="alert('Thanks for pressing my button ^-^')">Click me 😏</button>
+
+    <style>
+        h1 {
+            font-size: 100px
+        }
+
+        h2 {
+            font-size: 25px;
+            font-family: Georgia, 'Times New Roman', Times, serif
+        }
+
+        p {
+            font-size: 21px;
+            font-family: cursive;
+            color: maroon;
+            text-align: center
+        }
+
+        ul {
+            font-family: fantasy;
+            font-size: 16px
+        }
+
+        ol {
+            font-family: monospace;
+            font-size: 16px
+        }
+    </style>
+
+
+</body>
+
+
+</html>
